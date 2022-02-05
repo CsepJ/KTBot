@@ -1,4 +1,4 @@
-const { prefix, email, password } = require("config.js");
+let { prefix, email, password } = require("config.js");
 const kalingModule = require('kaling').Kakao();
 const Kakao = new kalingModule();
 Kakao.init('366934bb1d3b68ada6c5dfa60f71e9bb');
